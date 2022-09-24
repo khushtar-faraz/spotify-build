@@ -1,0 +1,8 @@
+.player{
+    overflow: hidden;
+}
+
+.player__body{
+    display: flex;
+    overflow: hidden;
+}

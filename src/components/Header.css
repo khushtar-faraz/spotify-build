@@ -1,0 +1,23 @@
+.header {
+  /* display: flex; */
+  position: relative;
+}
+
+.header__avatar {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+
+.header__avatarImage {
+  height: 10px;
+  width: 10px;
+}
+
+.header__avatar > h4 {
+  color: white;
+  margin-left: 10px;
+}
