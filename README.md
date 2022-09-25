@@ -1,70 +1,43 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the application
 
-## Available Scripts
+An application to remote control your actual Spotify Web Player. You can fetch your playlist library and even play the songs of it remotely. Actual Player needs to stay open either in Mobile or Web for this remote function to work. Since this feature require premium Spotify subscription and accounts to provide access to needs to be added to Spotify Developer Dashboard hence my credentials will be required to test this application.
 
-In the project directory, you can run:
 
-### `npm start`
+## Technology used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+HTML, CSS, Javascript, React JS, Spotify Web API, React Context API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## How to use the Application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+First go to this URL https://spotify-clone-e63a7.web.app/
 
-### `npm run build`
+Below screen will appear. Click on Login button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 2022-09-25 234319](https://user-images.githubusercontent.com/91658563/192161959-c6573299-8107-4e9e-ab4e-252eae80ea1c.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You will get directed to spotify authentication page. 
+Login via below credentials.
+email: qapuihmnc@netmail.tk
+password: Test@12345
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 2022-09-25 234346](https://user-images.githubusercontent.com/91658563/192162019-3e560f75-f763-4a97-b5e9-8adfc2524f50.jpg)
 
-### `npm run eject`
+![Screenshot 2022-09-25 234510](https://user-images.githubusercontent.com/91658563/192162053-ac65a365-c895-493e-a2a6-287f54eeefd7.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Now a page will open confirming the sections this app will access from spotify like playlist etc. Click on agree and you will get logged in.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot 2022-09-25 234552](https://user-images.githubusercontent.com/91658563/192162102-e4136763-39c4-4bff-a05d-1bd550c824cf.jpg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Upon login, below screen will appear which is very similar to actual spotify app.
+Note because of subscription reasons, you cannot play the songs via this credentials. In order to play songs my credentials will be required. But you can access and see your playlist.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot 2022-09-25 234654](https://user-images.githubusercontent.com/91658563/192162247-0e8d0a4b-076d-4de1-9c10-81b4e988cae6.jpg)
 
-## Learn More
+List of songs from the playlist are diaplayed as below. In order to play the song, you just need to click on the individual song.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot 2022-09-25 234748](https://user-images.githubusercontent.com/91658563/192162295-2fb1c82c-f66a-4848-a799-308c9d5b226f.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Finally in order to logout, just click your profile icon and you will be logged out.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
